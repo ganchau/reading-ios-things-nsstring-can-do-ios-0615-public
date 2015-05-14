@@ -7,7 +7,7 @@
 
 // Examples
 NSString name = @"Raylan";
-NSString fullName = [NSString stringWithFormat:@"%@ Givens"]; // fullname is
+NSString fullName = [NSString stringWithFormat:@"%@ Givens", name]; // fullname is
 equal to 'Raylan Givens'
 ```
 
